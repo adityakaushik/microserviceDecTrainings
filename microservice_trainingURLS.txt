@@ -1,0 +1,41 @@
+https://www.baeldung.com/lombok-ide
+https://api.publicapis.org/entries
+
+Method level security with SpringBoot -
+https://www.concretepage.com/spring/spring-security/spring-security-using-secured-annotation
+https://www.baeldung.com/spring-security-method-security
+
+Method level security with SpringBoot -
+https://www.concretepage.com/spring/spring-security/spring-security-using-secured-annotation
+https://www.baeldung.com/spring-security-method-security
+
+The @Secured("ROLE_NAME") annotation can be used on a method to enforce authorization based on ROLE.
+The ROLE(s) should be configured for each User in the security configuration or the Authorization server (IdP). The below statement can be used in the application code to verify what ROLES are available for the current User -
+--------------------------------------------------------
+SecurityContextHolder.getContext().getAuthentication().getAuthorities();
+
+https://docs.docker.com/config/containers/start-containers-automatically/
+
+These 2 annotations will help easily define custom MBeans (JMX) in SpringBoot -
+
+@ManagedResource - at class level
+
+@ManagedOperation - at method level
+
+
+https://www.geekyhacker.com/2019/03/26/high-performance-data-fetching-using-spring-data-jpa-stream/
+https://dzone.com/articles/spring-boot-and-working-with-mbeans
+
+
+[12:19 PM] Durga, Amar
+Spring Cloud Circuit breaker provides an abstraction across different circuit breaker implementations. It provides a consistent API to use in your applications allowing you the developer to choose the circuit breaker implementation that best fits your needs for your app.
+Supported Implementations
+Netfix Hystrix
+Resilience4J
+SentinelSpring Retry
+The main benefit of using this is you have option to choose different circuit breaker libraries. Migration from one to other pain point is less.
+There is nice documentation and sample code on official website
+ like 1
+Spring Cloud Circuit Breaker
+Level up your Java code and explore what Spring can do for you.
+
